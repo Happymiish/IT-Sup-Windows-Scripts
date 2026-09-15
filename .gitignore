@@ -2,6 +2,11 @@
 HealthReport_*.html
 NetworkRepair_*.log
 Cleanup_*.csv
+ProcessInventory_*.html
+EventAnalysis_*.html
+EventAnalysis_*.csv
+NetworkAudit_*.html
+NetworkAudit_*.csv
 *.log
 Reports/
 Logs/
@@ -9,6 +14,7 @@ Logs/
 # Machine lists that may contain internal hostnames
 machines.txt
 computers.txt
+servers.txt
 
 # Editor / OS noise
 .vscode/
