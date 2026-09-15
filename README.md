@@ -2,6 +2,8 @@
 
 Six production-ready PowerShell tools for Windows help desk, desktop support, and incident response work. Each is self-contained, documented, and safe to run against a user's machine.
 
+**Repository:** [github.com/Happymiish/IT-Sup-Windows-Scripts](https://github.com/Happymiish/IT-Sup-Windows-Scripts)
+
 ## The scripts
 
 ### [01 — System Health Check](./01-System-Health-Check)
@@ -77,8 +79,8 @@ These follow a few rules that make them safe to hand to junior staff:
 Clone and unblock the files (Windows marks downloaded scripts as untrusted):
 
 ```powershell
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Happymiish/IT-Sup-Windows-Scripts.git
+cd IT-Sup-Windows-Scripts
 Get-ChildItem -Recurse -Filter *.ps1 | Unblock-File
 ```
 
