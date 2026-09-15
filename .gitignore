@@ -1,0 +1,19 @@
+# Generated reports and logs
+HealthReport_*.html
+NetworkRepair_*.log
+Cleanup_*.csv
+*.log
+Reports/
+Logs/
+
+# Machine lists that may contain internal hostnames
+machines.txt
+computers.txt
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
